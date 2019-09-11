@@ -7,8 +7,8 @@ function MaysPrimera(string) {
 
 app.get('/makers/:nombre', (req, res) => {
     if (req.params.nombre) {
-        res.send("<h1>Hola " + req.params.nombre + "!</h1>");
-        MaysPrimera(nombre.toLowerCase());
+        res.send("<h1>Hola " + req.params.nombre.MaysPrimera(nombre.toLowerCase()); + "!</h1>");
+        
     } else {
         res.send("<h1>Hola desconocido!</h1>");
     }
